@@ -5,11 +5,11 @@ import java.text.MessageFormat;
 import javax.servlet.ServletContext;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.dubbo.config.ApplicationConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.alibaba.dubbo.config.ApplicationConfig;
 import com.deepoove.swagger.dubbo.http.ReferenceManager;
 
 import io.swagger.config.SwaggerConfig;

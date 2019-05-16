@@ -1,11 +1,11 @@
 package com.deepoove.dubbo.provider.springboot.provider;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.deepoove.swagger.dubbo.example.api.service.AccountService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
+import org.apache.dubbo.config.annotation.Service;
 
 @Api(value = "帐号服务")
 @Service

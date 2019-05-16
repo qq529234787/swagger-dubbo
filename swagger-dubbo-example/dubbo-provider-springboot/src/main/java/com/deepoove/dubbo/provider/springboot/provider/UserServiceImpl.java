@@ -3,9 +3,9 @@ package com.deepoove.dubbo.provider.springboot.provider;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.deepoove.swagger.dubbo.example.api.pojo.User;
 import com.deepoove.swagger.dubbo.example.api.service.UserService;
+import org.apache.dubbo.config.annotation.Service;
 
 @Service
 public class UserServiceImpl implements UserService {
